@@ -210,3 +210,16 @@ ul{
     border-radius: 5px;
 }
 
+.footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding:20px;
+}
+
+.footer-text{
+    color:#e5e5e5;
+    font-size: 18px;
+    font-weight: 700;
+}
