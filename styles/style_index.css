@@ -57,7 +57,8 @@ ul{
     align-items: center;
     background-color: #1F2937;
     /* temporary height to be removed later */
-    height:500px;
+    padding-top:5%;
+    padding-bottom:5%;
 }
 
 .hero-content{
@@ -72,10 +73,10 @@ ul{
 }
 
 .left-side{
-    flex:0 1 400px;
+    flex:0 1 600px;
     display:flex;
     flex-direction: column;
-    gap:10px;
+    gap:50px;
     align-items: flex-start;
 }
 
@@ -111,6 +112,7 @@ ul{
     display:flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom:5%;
 }
 
 .info-tiles-ctr{
@@ -123,12 +125,14 @@ ul{
 .info-tile{
     flex:0 1 150px;
     text-align: center;
+    color:#555555;
+    font-size:17px;
 }
 
 .info-tile-img{
     width:100%;
     height:auto;
-    border:5px solid rgb(79, 94, 255);
+    border:5px solid rgb(101, 114, 255);
     border-radius: 20px;
 }
 
@@ -138,5 +142,34 @@ ul{
     color:#1F2937;
     margin:20px;
 }
+
+.quote-section{
+    height:500px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left:15%;
+    padding-right:15%;
+    background-color: #e5e5e5;
+    padding-top:5%;
+    padding-bottom:5%;
+}
+
+.quote-body{
+    font-size: 34px;
+    font-style: italic;
+    color:#1F2937;
+}
+
+.quote-author{
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 700;
+    color:#1F2937;
+    padding-right:7%;
+}
+
+
 
 
